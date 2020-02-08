@@ -1,0 +1,232 @@
+.Toastify__toast-container{
+    font-weight: bold;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+.select-search-box__options{
+    padding-left: 5px !important
+}
+.select-search-box__search{
+    border: none !important;
+    height: 36px !important;
+    padding : 1px !important;
+    padding-left: 7px !important;
+    font-style: normal !important;
+}
+
+.react-datepicker__day--highlighted-custom-1{
+    color : red !important;
+    cursor: default !important;
+    background-color: white !important;
+    /* font-weight : bold; */
+}
+.react-datepicker__day--selected{
+    background-color: #216ba5 !important; 
+}
+.foto-profile{
+    min-width: 240px;
+    min-height: 240px;
+    object-fit: cover;
+}
+.job-histories{
+    font-size: 1.08rem;
+    font-weight: 400;
+    color : #00bdd5;
+    margin : 8px 25px 0 0;
+
+}
+.job-histories:hover{
+    cursor: pointer;
+}
+.fa-trash-alt:hover{
+    cursor: pointer;
+    -ms-transform: rotate(10deg); /* IE 9 */
+  -webkit-transform: rotate(10deg); /* Safari 3-8 */
+  transform: rotate(10deg);
+}
+.disable, .disable:hover{
+    cursor: no-drop;
+}
+.MuiFormControlLabel-root-1{
+    margin-right: 0px !important;
+}
+.option{
+    text-transform: capitalize;
+}
+.none{
+    text-decoration: none;
+}
+.tengah{
+    padding: 50px;
+}
+.bg-blue{
+    background-color: #3FCADE;
+}
+.bg-abu{
+    background-color: #F2F2F2 !important;
+}
+.bg-white{
+    background-color: white;
+}
+.bg{
+    background-color: rgba(255,255,255,.97);
+}
+.show{
+    display: block;
+    
+}
+.bg-loading{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+.hide{
+    display: none;
+}
+.fa-edit:hover{
+    cursor: pointer;
+}
+.loader{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    z-index: 1;
+}
+.opacity{
+    opacity: 0.3;
+    background-color: white;
+}
+  
+  #page-numbers {
+    list-style: none;
+    display: flex;
+    float : right;
+  }
+  .width200{
+      margin : 0;
+  }
+  .react-datepicker-wrapper, .react-datepicker__input-container {
+    display: block !important;
+  }  
+  
+  #page-numbers > li {
+    margin-right: 0.3em;
+    color: #007bff;
+    user-select: none;
+    cursor: pointer;
+  }
+.page-link{
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+.DayPicker-Day{
+    padding: 2px !important
+}
+.inputfile{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.changetext{
+    margin-top : 10px;
+    color : #00BDD5;
+}
+.changetext:hover{
+    cursor: pointer;
+}
+.fullpage{
+    width: 100%;
+    height: 100;
+    box-sizing: border-box;
+}
+.foto-profile{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    object-fit: cover;
+}
+.white-logo{
+    max-width: 280px;
+}
+.center{
+    text-align: center;
+}
+.login{
+    position: relative;
+    color: #3d3d3d;
+}
+.login-box{
+    max-width: 500px;
+    margin: 80px auto 20px auto;
+    border-radius: 8px;
+    padding: 80px 60px 50px 60px;
+    box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.20);
+}
+.bold{
+    font-weight: bold;
+}
+.loginas{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #DCDBDB;
+    font-family: 'SF Display', sans-serif;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+/* .loginas:hover{
+    border: 1px solid black;
+} */
+.link, .link:hover, .link:active{
+    color: rgba(0,0,0,.6);
+    text-decoration :none;
+}
+
+.text-abu{
+    color: #b1b1b1;
+}
+.text-black{
+    color: rgba(0,0,0,.6);
+}
+.imgas{
+    max-height: 28px;
+    margin : 0 15px;
+    max-width: 28px;
+}
+.powered{
+    margin-top : 10px;
+}
+.button-bawah{
+    margin-bottom: 30px;
+}
+.content-tab{
+    padding : 15px;
+    padding-top : 30px;
+}
+.kasihatas{
+    margin-top:50px;
+}
+.kasihataskecil{
+    margin-top:20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .login-box{
+        box-shadow: none;
+        padding: 80px 20px 50px 20px;
+
+    }
+    .ReactModal__Content{
+        width: 90% !important;
+    }
+}
